@@ -8,5 +8,7 @@ func main() {
 	//b.VariablesPrint()
 	//b.StringsPrint()
 	//b.ConstantsPrint()
-	b.PointersPrint()
+	//b.PointersPrint()
+	//b.ArraysPrint()
+	b.SlicesPrint()
 }
