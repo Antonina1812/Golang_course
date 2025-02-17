@@ -10,5 +10,6 @@ func main() {
 	//b.ConstantsPrint()
 	//b.PointersPrint()
 	//b.ArraysPrint()
-	b.SlicesPrint()
+	//b.SlicesPrint()
+	b.MapsPrint()
 }
