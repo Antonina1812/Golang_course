@@ -11,5 +11,8 @@ func main() {
 	//b.PointersPrint()
 	//b.ArraysPrint()
 	//b.SlicesPrint()
-	b.MapsPrint()
+	//b.MapsPrint()
+	//b.ConditionsPrint()
+	//b.LoopsPrint()
+	b.FunctionsPrint()
 }
