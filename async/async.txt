@@ -1,0 +1,35 @@
+0. Thread
+ - has an access to operative memory of his process
+ - requered much less memory for existing 
+ - is blocked for time to get response from request
+
+1. Memory
+ - the speed of CPU increases faster than speed of operative memory
+ - there is a cache of processor to compensate it
+
+2. Context switch (переключение контекста) //очень дорогая операция
+ - the processor performs only one task at a time
+ - the scheduler switch them
+ - to do it, need to unload one task and load another one
+ - for it, applying to main memory can be requered
+
+ - the scheduler saves the state of one thread (сущность более лёгкая, чем процесс), stores it and at that time unload the state of another thread 
+
+3. cgi-bin (так себе вариант)
+  - one conection == one process
+  - many conections can become the cause of overflow of memory
+
+4. Multithreading (вариант получше, но далеко не идеал)
+ - one conection == one thread
+ - many conections can become the cause of overflow of memory + switch is expensive
+
+5. non-blocking I/O on 1 core
+ - the requests can be perform at a time
+
+6. non-blocking I/O on all cores (multithreading) // высокая производительность
+ - this method is implemented in Golang
+ - operates with lightweight streams (goroutines)
+
+7. Goroutine (сопрограмма)
+ - many goroutines can be implemented in one thread
+ - can be performed in different threads
