@@ -6,6 +6,7 @@ import (
 	a "golang/async"
 	b "golang/basics"
 	p "golang/first_practice"
+	h "golang/http"
 	j "golang/json"
 	l "golang/leetcode"
 	"io"
@@ -20,11 +21,16 @@ func LeetcodePrint() {
 	l.LeetcodeArrayPrint()
 }
 
+func HTTPPrint() {
+	h.ListenerPrint()
+}
+
 func JsonPrint() {
 	//j.JSONPrint()
 	//j.TagsPrint()
 	//j.DynamicPrint()
-	j.ReflectPrint()
+	//j.ReflectPrint()
+	j.CodeGenerationPrint()
 }
 
 func AsyncPrint() {
@@ -68,7 +74,8 @@ func main() {
 	//BasicsPrint()
 	//FirstPracticePrint(os.Stdin, os.Stdout)
 	//AsyncPrint()
-	JsonPrint()
+	//JsonPrint()
+	HTTPPrint()
 
 	//LeetcodePrint()
 	//AtgorithmsPrint()
