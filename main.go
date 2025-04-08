@@ -22,7 +22,12 @@ func LeetcodePrint() {
 }
 
 func HTTPPrint() {
-	h.ListenerPrint()
+	//h.ListenerPrint()
+	//h.RequestsPrint()
+	//h.PagesPrint()
+	//h.ServeHTTPPrint()
+	//h.MuxPrint()
+	h.ServersPrint()
 }
 
 func JsonPrint() {
