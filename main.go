@@ -27,7 +27,9 @@ func HTTPPrint() {
 	//h.PagesPrint()
 	//h.ServeHTTPPrint()
 	//h.MuxPrint()
-	h.ServersPrint()
+	//h.ServersPrint()
+	//h.GetPrint()
+	h.PostPrint()
 }
 
 func JsonPrint() {
