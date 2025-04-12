@@ -29,7 +29,11 @@ func HTTPPrint() {
 	//h.MuxPrint()
 	//h.ServersPrint()
 	//h.GetPrint()
-	h.PostPrint()
+	//h.PostPrint()
+	//h.TemplateTextPrint()
+	//h.TemplateHTMLPrint()
+	//h.TemplateMethodPrint()
+	h.TemplateFuncPrint()
 }
 
 func JsonPrint() {
