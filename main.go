@@ -33,7 +33,11 @@ func HTTPPrint() {
 	//h.TemplateTextPrint()
 	//h.TemplateHTMLPrint()
 	//h.TemplateMethodPrint()
-	h.TemplateFuncPrint()
+	//h.TemplateFuncPrint()
+	//h.PprofPrint()
+	//h.CookiesPrint()
+	//h.HeaderPrint()
+	h.IMGPrint()
 }
 
 func JsonPrint() {
