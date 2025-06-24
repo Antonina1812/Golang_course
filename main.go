@@ -8,17 +8,12 @@ import (
 	p "golang/first_practice"
 	h "golang/http"
 	j "golang/json"
-	l "golang/leetcode"
 	"io"
 )
 
 func AtgorithmsPrint() {
 	alg.StackPrint()
 	alg.QueuePrint()
-}
-
-func LeetcodePrint() {
-	l.LeetcodeArrayPrint()
 }
 
 func HTTPPrint() {
@@ -56,7 +51,8 @@ func AsyncPrint() {
 	//a.ContextPrint()
 	//a.AsynqWorkPrint()
 	//a.WorkerPoolPrint()
-	a.WaitGroupPrint()
+	//a.WaitGroupPrint()
+	a.RacePrint()
 }
 
 func FirstPracticePrint(in io.Reader, out io.Writer) error {
@@ -88,9 +84,9 @@ func BasicsPrint() {
 func main() {
 	//BasicsPrint()
 	//FirstPracticePrint(os.Stdin, os.Stdout)
-	//AsyncPrint()
+	AsyncPrint()
 	//JsonPrint()
-	HTTPPrint()
+	//HTTPPrint()
 
 	//LeetcodePrint()
 	//AtgorithmsPrint()
